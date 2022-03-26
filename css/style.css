@@ -1,0 +1,88 @@
+/* COLOR */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+body header {
+  width: 100%;
+  background-color: #fdfcf7;
+  -webkit-box-shadow: 5px 0px 15px #cacaca;
+          box-shadow: 5px 0px 15px #cacaca;
+}
+
+body header .nav__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+}
+
+body header .nav__container .nav__logo {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body header .nav__container .nav__logo .nav_hamburger {
+  display: none;
+}
+
+body header .nav__container .nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+body header .nav__container .nav__links li {
+  list-style: none;
+}
+
+body header .nav__container .nav__links li a {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 1rem;
+  color: #061775;
+}
+
+body header .nav__container .nav__links li a:hover {
+  color: #7b87c9;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+body header .nav__container .nav__social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.1rem;
+}
+
+body header .nav__container .nav__social-icons li {
+  list-style: none;
+}
+
+body header .nav__container .nav__social-icons li a {
+  color: #061775;
+}
+
+body header .nav__container .nav__social-icons li a:hover {
+  color: #7b87c9;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+/*# sourceMappingURL=style.css.map */

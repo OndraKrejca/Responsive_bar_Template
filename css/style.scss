@@ -1,0 +1,74 @@
+@import "variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+
+  header {
+    width: 100%;
+    background-color: $color_nav;
+    box-shadow: 5px 0px 15px rgb(202, 202, 202);
+
+    .nav__container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem;
+
+      .nav__logo {
+        font-family: "Courier New", Courier, monospace;
+
+        .nav_hamburger {
+          display: none;
+        }
+      }
+
+      .nav__links {
+        display: flex;
+        gap: 1rem;
+
+        li {
+          list-style: none;
+
+          a {
+            font-family: Arial, sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0 1rem;
+            color: $color_main;
+
+            &:hover {
+              color: $color_hover_text;
+              transition: all 0.5s ease-in;
+            }
+          }
+        }
+      }
+
+      .nav__social-icons {
+        display: flex;
+        gap: 1.1rem;
+
+        li {
+          list-style: none;
+
+          a {
+            color: $color_main;
+
+            &:hover {
+              color: $color_hover_text;
+              transition: all 0.5s ease-in;
+            }
+          }
+        }
+      }
+    }
+  }
+}
